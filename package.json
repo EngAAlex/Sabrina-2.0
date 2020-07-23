@@ -1,0 +1,58 @@
+{
+  "name": "sabrina",
+  "version": "0.8.5",
+  "private": true,
+  "dependencies": {
+    "@deck.gl/aggregation-layers": "^8.0.16",
+    "@deck.gl/core": "^8.0.16",
+    "@deck.gl/layers": "8.0.16",
+    "@deck.gl/react": "^8.0.16",
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@material-ui/core": "^4.9.4",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.44",
+    "@material-ui/styles": "^4.9.0",
+    "@material-ui/utils": "^4.7.1",
+    "body-parser": "^1.18.3",
+    "chroma-js": "^2.0.3",
+    "d3": "^5.15.0",
+    "d3-scale": "^3.0.0",
+    "d3-scale-chromatic": "^1.3.3",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "express": "^4.16.4",
+    "geolib": "^3.2.1",
+    "multicore": "^0.2.0",
+    "nodemon": "^1.18.10",
+    "papaparse": "^5.1.1",
+    "parallel-array": "^1.1.1",
+    "pg": "^7.18.2",
+    "prop-types": "^15.7.2",
+    "rc-slider": "^9.2.1",
+    "react": "^16.8.6",
+    "react-csv": "^1.1.2",
+    "react-dom": "^16.8.6",
+    "react-floater": "^0.7.2",
+    "react-map-gl": "^5.2.3",
+    "react-scripts": "^3.4.0",
+    "react-vis": "^1.11.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://localhost:3000/",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
